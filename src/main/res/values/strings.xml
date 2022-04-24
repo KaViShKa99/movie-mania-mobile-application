@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Movie Mania</string>
+    <string name="add_movie_btn">ADD MOVIE</string>
+    <string name="search_for_actors">SEARCH ACTORS</string>
+    <string name="search_for_movie">SEARCH MOVIES</string>
+    <string name="home_app_name">ovie ania</string>
+    <string name="home_app_first_letter">M</string>
+    <string name="retrieve_movie">RETRIEVE MOVIE</string>
+    <string name="save_movie">SAVE MOVIE</string>
+    <string name="api_key">4a4fa30e</string>
+    <string name="add_btn">Add</string>
+    <string name="delete_btn">Delete</string>
+    <string name="search_all_movies">Search All Movies</string>
+
+
+</resources>

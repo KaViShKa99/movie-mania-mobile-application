@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".HomePage">
+
+    <Button
+        android:id="@+id/search_movies"
+        android:layout_width="226dp"
+        android:layout_height="60dp"
+        android:width="200dp"
+        android:height="100dp"
+        android:text="@string/search_for_movie"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.592"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.316"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/search_actors"
+        android:layout_width="226dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="4dp"
+        android:width="200dp"
+        android:height="100dp"
+        android:text="@string/search_for_actors"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.592"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/search_movies"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/get_all_movies"
+        android:layout_width="226dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:width="200dp"
+        android:height="100dp"
+        android:text="Search Movie List"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.592"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/add_movie"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/add_movie"
+        android:layout_width="226dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:width="200dp"
+        android:height="100dp"
+        android:text="@string/add_movie_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.592"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/search_actors"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="123dp"
+        android:layout_height="138dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="72dp"
+        android:text="@string/home_app_first_letter"
+        android:textAlignment="center"
+        android:textColor="#252425"
+        android:textSize="96sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="126dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/home_app_name"
+        android:textColor="#AC29AC"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView1"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
